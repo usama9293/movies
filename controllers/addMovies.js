@@ -1,4 +1,4 @@
-import Movie from "../model/movieModel"; // Assuming you have a Movie model defined
+import Movie from "../model/movieModel.js"; // Assuming you have a Movie model defined
 
 const addMovies = async (req, res) => {
   const { movie_name, info, rating } = req.body;
